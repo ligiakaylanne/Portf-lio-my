@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7A577A;
+}
+
+a {
+  margin: 0 4px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+  transition: background-color 0.3s; /* Adiciona uma transição para suavizar a mudança de cor de fundo */
+}
+
+a:hover {
+  background: radial-gradient(circle, rgba(193,162,205,1) 0%, rgba(164,181,224,1) 49%, rgba(193,162,205,1) 99%);
+  /* Cor de fundo quando o mouse estiver sobre o link */
+}

@@ -1,0 +1,91 @@
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .texto {
+    text-align: center;
+    margin-right: auto;
+    flex: 1;
+    
+  }
+  
+  .imagem {
+    width: 35%; 
+    
+  }
+  
+  img {
+    width: 300px;
+    /* border-radius: 200px; */
+    height: 300px;
+  }
+  
+hr{
+    border-color: #7A577A;
+    width: 100%;
+}
+
+.minha{
+  border-radius: 150px;
+
+}
+.contatos img{
+  margin: 0;
+  padding: 0;
+  height: 28px;
+  width: 28px;
+  margin-right: 10px;
+  
+}
+
+.contatos{
+  display: flex;
+  justify-content: flex-end;
+}
+
+class{
+  margin-right: 20px;
+}
+
+h2{
+  color: #7A577A;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  white-space: break-word;
+  font-size:25px ;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.ligia {
+  font-size: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typeWriter 4s steps(5, end);
+  border-right: 2px solid transparent;
+  color: #7A577A;
+  text-shadow: -1px -1px 0 #000000, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+@keyframes typeWriter {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+  }
+}
+h2,h1,h2{
+  margin-bottom: 0.3px;
+}
+

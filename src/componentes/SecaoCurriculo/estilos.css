@@ -1,0 +1,13 @@
+.centro{
+    text-align: center;
+}
+
+.centralizar{
+    display: inline-block;
+    text-align: left;
+}
+@media (max-width: 768px) {
+    .centralizar {
+      text-align: center; /* Centralizar texto em telas menores */
+    }
+  }
